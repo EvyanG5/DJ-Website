@@ -1,0 +1,204 @@
+dj-website/
+
+index.html
+style.css
+script.js
+
+/assets
+   logo.png
+   background.mp4
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DJ Evy G</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<video autoplay muted loop id="bg-video">
+<source src="assets/background.mp4" type="video/mp4">
+</video>
+
+<div class="hero-content">
+
+<h1>DJ Evy G</h1>
+
+<p>Clubs • Festivals • Private Events</p>
+
+<a href="#booking" class="btn">BOOK NOW</a>
+
+</div>
+
+</section>
+
+
+<!-- NAVBAR -->
+
+<nav>
+
+<ul>
+
+<li><a href="#bio">Bio</a></li>
+<li><a href="#mixes">Mixes</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#events">Events</a></li>
+<li><a href="#instagram">Instagram</a></li>
+<li><a href="#booking">Bookings</a></li>
+<li><a href="#support">Support</a></li>
+
+</ul>
+
+</nav>
+
+
+<!-- BIO -->
+
+<section id="bio">
+
+<h2>About The DJ</h2>
+
+<p>
+DJ Evy G delivers electrifying sets blending hip-hop,
+R&B, Soul, Funk, Reggaeton, and open format. Known for high-energy
+performances across clubs, festivals, and private events.
+</p>
+
+</section>
+
+
+<!-- MIX PLAYER -->
+
+<section id="mixes">
+
+<h2>DJ Mixes</h2>
+
+<iframe
+width="100%"
+height="166"
+scrolling="no"
+frameborder="no"
+src="https://music.apple.com/library/playlist/p.ldvALZdhom5707">
+</iframe>
+
+<iframe
+width="100%"
+height="166"
+scrolling="no"
+frameborder="no"
+src="https://music.apple.com/library/playlist/p.ldvALZdhom5707">
+</iframe>
+
+</section>
+
+
+<!-- VIDEOS -->
+
+<section id="videos">
+
+<h2>Live Videos</h2>
+
+<div class="video-grid">
+
+<iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/dPRm0NfHxYY?si=Lv80O5Fpa8JNTdJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/dPRm0NfHxYY?si=Lv80O5Fpa8JNTdJ_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</div>
+
+</section>
+
+
+<!-- EVENTS -->
+
+<section id="events">
+
+<h2>Upcoming Events</h2>
+
+<div class="event">
+
+<h3>Studio City Party</h3>
+
+<p>Los Angeles • March 13</p>
+
+</div>
+
+<div class="event">
+
+<h3>Birthday Party</h3>
+
+<p>Alhambra • March 14</p>
+
+</div>
+
+</section>
+
+
+<!-- INSTAGRAM -->
+
+<section id="instagram">
+
+<h2>Instagram</h2>
+
+<iframe
+src="https://www.instagram.com/p/_djevyg/embed"
+width="400"
+height="480">
+</iframe>
+
+</section>
+
+
+<!-- BOOKING CALENDAR -->
+
+<section id="booking">
+
+<h2>Book DJ Evy G</h2>
+
+<div class="calendly-inline-widget"
+data-url="https://calendly.com/evyan-green15"
+style="min-width:320px;height:700px">
+</div>
+
+</section>
+
+
+<!-- SUPPORT / TIPS -->
+
+<section id="support">
+
+<h2>Support The Music</h2>
+
+<button id="tipButton">Send Tip</button>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 DJ Evy G</p>
+
+</footer>
+
+<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
